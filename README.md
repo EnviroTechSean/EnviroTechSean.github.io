@@ -2,4 +2,4 @@ Hi! See
 
 https://envirotechsean.github.io/ 
 
-For the rendered homepage
+For the homepage of my bio
