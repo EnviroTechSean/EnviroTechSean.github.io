@@ -1,68 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean Bray - EnviroTechSean</title>
+  <meta charset="UTF-8">
+  <title>CodePen - UL timeline cards</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    <div class="container">
-        <section class="intro">
-            <h1>Sean Bray - EnviroTech Innovator</h1>
-            <p>A software developer and data scientist passionate about leveraging technology for environmental sustainability. Explore my projects and interests below.</p>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href="#bio">Bio</a></li>
-                <li class="dropdown">
-                    <button class="dropdown-button">Projects</button>
-                    <div class="dropdown-content">
-                        <a href="#proprietary-projects">Proprietary Projects</a>
-                        <a href="#public-repositories">Public Repositories</a>
-                    </div>
-                </li>
-                <li><a href="#interests">Professional Interests</a></li>
-            </ul>
-        </nav>
-
-        <h1 id="bio">Bio</h1>
-        <h2>Sean Bray - Data Scientist and Back-end Developer</h2>
-        <p>Hi! I'm Sean Paul Bray. I'm a software developer, data scientist, environmentalist, test designer, learner of machine learning, Eagle Scout, and comedy enthusiast. I enjoy math, science, coding, and team efforts toward shared visions. I spend a significant portion of every day pondering how I can use my tech skills to ensure people are fed, breathe clean air, and drink clean water in an era where climate change increasingly threatens these goals. I also consider how I can make these contributions while building a career for myself.</p>
-
-        <h2>Contact Information</h2>
-        <p>The best way to reach me is via e-mail at <a href="mailto:sean.bray23@gmail.com">sean.bray23@gmail.com</a>.</p>
-
-        <h2 id="proprietary-projects">Summary of Proprietary Projects</h2>
-        <p>By far, the two largest software projects I ever worked on were completely proprietary, skip to the Public Repositories header if you're hungry for examples.</p>
-
-        <h3>SeanBrayKodiak</h3>
-        <p>SeanBrayKodiak is my old GitHub account with my previous employer, Kodiak Robotics. With that account, I wrote many thousands of lines of Python, and a few dozen lines of several other languages, automating my job and my teammates' jobs. By the end of my QA career, my role was largely about programmatically shifting data around different platforms, developing and maintaining tools to do so, and performing analytics on that data. Using Python and other languages, I interacted with Jira's REST API to automatically update tickets with my coworkers' analysis, as well as synchronize data with the backend non-relational database using their REST API. Furthermore, I synced data in both of those sources with the outputs of our simulation tests, in order to help my team prioritize work and speed up their analysis toolkits. Sounds easy, but was a lot of work!</p>
-
-        <h3>Natural-Language-Processing for market predictions</h3>
-        <p>My second largest proprietary coding project was my capstone project for my Masters in Molecular Science and Software Engineering at University of California, Berkeley. I worked in association with Pivotal Life Sciences to scrape relevant text data, and architected several layers of machine learning model to analyze the text, extract features of interest, and try to predict several companies of interest's future market capitalizations.</p>
-
-        <h2 id="public-repositories">Public Repositories</h2>
-        <div class="project">
-            <h3><a href="https://github.com/EnviroTechSean/chem279_final_project">3D Electron Density Visualizer</a></h3>
-            <p>A project from my Masters program at UC Berkeley. This involved creating 3D graphical representations of electron densities, molecular orbitals, and atomic orbitals based on CNDO/2 - SCF theory.</p>
-            <p><strong>Technologies:</strong> Matplotlib, C++, Numpy, Python</p>
-        </div>
-
-        <div class="project">
-            <h3><a href="https://github.com/EnviroTechSean/AirQualityAnalysis">Air Quality Data Analysis</a></h3>
-            <p>Another project from my Masters program focusing on data analytics and linear regression modeling of air quality emissions data and its correlations with CO2 equivalent emissions measurements.</p>
-            <p><strong>Technologies:</strong> Python, Pandas, Scikit-learn</p>
-        </div>
-
-        <h2 id="professional-interests">Professional Interests</h2>
-        <p>I'm interested in doing any work where I can make a career achieving my above-stated goal of using technology to help humanity adapt to climate change. The three categories I believe my data science skills, my deep coding experience, my generalist science background, and my math skills can help me achieve this in a broad variety of ways. Here are three areas I have thought most about:</p>
-        <ol>
-            <li>Agricultural robotics</li>
-            <li>Low-Emissions transportation of goods and people</li>
-            <li>Green energy (probably nuclear makes the most sense for my skillset, but any green energy folks needing a data sciencist or software engineer for something like simulation or automation, feel free to reach out)</li>
-            <li>Genetically modified crops</li>
-        </ol>
-    </div>
+<!-- partial:index.partial.html -->
+<h1>Sean Bray - Experience</h1>
+<ul>
+    <li style="--accent-color:#41516C">
+        <div class="date">2012-2016</div>
+        <div class="title">B.S. Physics (Haverford College)</div>
+        <div class="descr">Studied physics with a focus on electromagnetics and quantum mechanics. Also studied computer science and several social sciences and humanities.</div>
+    </li>
+    <li style="--accent-color:#FBCA3E">
+        <div class="date">2016-2018</div>
+        <div class="title">Waymo Contract</div>
+        <div class="descr">Worked across multiple sub teams to identify and report on worst-possible-case safety outcomes.</div>
+    </li>
+    <li style="--accent-color:#E24A68">
+        <div class="date">2019-2023</div>
+        <div class="title">Kodiak Robotics</div>
+        <div class="descr">Simulation testing and data pipeline automation.</div>
+    </li>
+    <li style="--accent-color:#1B5F8C">
+        <div class="date">2023-2024</div>
+        <div class="title">Molecular Science and Software Engineering (UC Berkeley)</div>
+        <div class="descr">Machine Learning/Data Science and Computational Chemistry experience.</div>
+    </li>
+</ul>
+<div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">inspired by</a></div>
+<!-- partial -->
+  
 </body>
 </html>
