@@ -26,7 +26,9 @@ h1 {
 }
 
 h2 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Horizontal, vertical, blur, color */
+  background-color: rgba(226, 74, 104, 0.2); /* A light, translucent background */
+  padding: 0.5rem 1rem; /* Add some padding around the text */
+  border-radius: 5px; /* Slightly rounded corners */
 }
 
 ul {
