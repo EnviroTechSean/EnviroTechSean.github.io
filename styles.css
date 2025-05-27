@@ -199,3 +199,30 @@ ul li .descr::before {
 .credits a {
   color: var(--color);
 }
+
+.main-nav {
+    text-align: center;
+    margin-bottom: 2rem; /* Space below the navigation */
+}
+
+.main-nav ul {
+    display: flex; /* Arrange links horizontally */
+    justify-content: center; /* Center the links */
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    gap: 1.5rem; /* Space between links */
+    width: auto; /* Override the ul width from timeline for this nav */
+    margin-inline: 0; /* Override the ul margin-inline */
+}
+
+.main-nav li a {
+    text-decoration: none; /* Remove underline */
+    color: var(--color); /* Use your body text color */
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.main-nav li a:hover {
+    color: #E24A68; /* Hover color */
+    text-decoration: underline; /* Add underline on hover */
+}
