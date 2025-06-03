@@ -192,14 +192,6 @@ ul li .descr::before {
   }
 }
 
-.credits {
-  margin-top: 1rem;
-  text-align: right;
-}
-.credits a {
-  color: var(--color);
-}
-
 .main-nav {
     text-align: center;
     margin-bottom: 2rem; /* Space below the navigation */
@@ -219,10 +211,16 @@ ul li .descr::before {
     text-decoration: none; /* Remove underline */
     color: var(--color); /* Use your body text color */
     font-weight: 500;
-    transition: color 0.3s ease; /* Smooth hover effect */
+    padding: 0.5rem 1rem; /* Add padding to create space for background */
+    border-radius: 5px; /* Slightly rounded corners */
+    display: inline-block; /* Essential for transform to work correctly */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transform to transition */
 }
 
 .main-nav li a:hover {
-    color: #E24A68; /* Hover color */
-    text-decoration: underline; /* Add underline on hover */
+    color: white; /* Change text color for contrast */
+    background-color: #724ae2; /* Hover background color */
+    transform: scale(1.02); 
+    text-decoration: none; 
+
 }
